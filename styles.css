@@ -1,0 +1,337 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+}
+
+.nav-links {
+    list-style-type: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: black;
+}
+
+.login a {
+    color: white;
+    text-decoration: none;
+    background-color: #ff66b2;
+    padding: 8px 12px;
+    border-radius: 5px;
+}
+
+/* Search Bar */
+/* Updated search container */
+.search-container {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    background-color: transparent;
+    padding: 0;
+}
+
+.input {
+    margin: 30px;
+    background: none;
+    border: none;
+    outline: none;
+    max-width: 190px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 9999px;
+    box-shadow: inset 2px 5px 10px rgb(5, 5, 5);
+    color: #fff;
+}
+
+/* Styling for search button */
+.search-btn {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    margin-left: -40px; /* To overlap the icon with the input */
+}
+
+/* Font Awesome icon styling */
+.search-btn i {
+    color: #fff;  /* Change this to your desired icon color */
+    font-size: 20px;  /* Adjust the size of the icon */
+}
+
+
+.input {
+    margin: 30px;
+    background: none;
+    border: none;
+    outline: none;
+    max-width: 190px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 9999px;
+    box-shadow: inset 2px 5px 10px rgb(5, 5, 5);
+    color: #fff;
+}
+
+/* Styling for search button */
+.search-btn {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    margin-left: -40px; /* To overlap the icon with the input */
+}
+
+/* Styling for search icon */
+.search-icon {
+  
+    width: 20px;  /* Adjust icon size */
+    height: 20px;
+}
+.search-input {
+    padding: 8px 12px;
+    border: 1px solid #ff66b2;
+    background-color: #ffe6f2;
+    border-radius: 5px;
+    font-size: 1em;
+    color: #ff66b2;
+}
+
+.search-input::placeholder {
+    color: #ff66b2;
+}
+
+.search-btn {
+    background-color: #ff66b2;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    margin-left: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.search-btn:hover {
+    background-color: #882a51;
+}
+
+/* Hero Section */
+.hero {
+    padding: 0 25px;
+    background: linear-gradient(90deg, #ca26ff 7%, #f4cac0 85%, #fff3b0 100%);
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    border-bottom-right-radius: 120px;
+}
+
+.hero-content {
+    color: white;
+    max-width: 600px;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    margin-bottom: 30px;
+    line-height: 1.6;
+}
+
+.hero .btn {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.hero button {
+    background-color: black;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 30px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.hero button:hover {
+    background-color: #333;
+}
+/* Corrected image styling for middle-right positioning */
+.hero img {
+    position: absolute;
+    bottom: 50%; /* Move it higher to the middle */
+    right: -1%; /* Move it a bit inward from the right edge */
+    transform: translateY(50%); /* Adjust the position for better centering vertically */
+    width: 400px; /* Keep the increased width */
+    height: auto; /* Maintain the aspect ratio */
+    object-fit: contain; /* Prevent distortion */
+    border-bottom-right-radius: 80px;
+    padding: 10px;
+}
+
+/* Movies Section */
+.movies-section {
+    padding: 50px;
+    text-align: center;
+}
+
+.movies-section h2 {
+    margin-bottom: 30px;
+}
+
+.movie-cards {
+    display: flex;
+    justify-content: space-around;
+}
+
+.movie-card {
+    text-align: center;
+}
+
+.movie-card img {
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.movie-btn {
+    background-color: #ff66b2;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.movie-btn:hover {
+    background-color: #ff4081;
+}
+
+/* Explore More Section */
+.explore-section {
+    padding: 50px;
+    text-align: center;
+}
+
+.explore-section h2 {
+    margin-bottom: 30px;
+}
+
+.explore-cards {
+    display: flex;
+    justify-content: space-around;
+}
+
+.explore-card img {
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* Services Section */
+/* Services Section */
+.services {
+    padding: 50px;
+    background-color: #f3f3f3;
+    text-align: center;
+}
+
+.service-cards {
+    display: flex;
+    justify-content: space-around;
+}
+
+.service-card {
+    width: 200px;
+    padding: 20px;
+    background: #895d81;
+    border-radius: 87px;
+    box-shadow: inset -33px 33px 67px #372534, inset 33px -33px 67px #db95ce;
+    position: relative;
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.service-card p {
+    margin-top: 30px;
+    font-size: 0.9em;
+}
+
+/* Title Styling */
+.service-title {
+    position: absolute;
+    top: -25px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #ff85c0; /* Lighter pink variant */
+    color: white;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-weight: bold;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+.service-card:nth-child(2) .service-title {
+    background-color: #f090b0; /* Slightly different pink */
+}
+
+.service-card:nth-child(3) .service-title {
+    background-color: #4d1f2f; /* Another variant of pink */
+}
+/* Footer */
+footer {
+    background-color: #4b004b;
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.social-links ul,
+.footer-company ul {
+    list-style: none;
+}
+
+.footer-container h4 {
+    margin-bottom: 10px;
+}
+
+.footer-container a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-container a:hover {
+    text-decoration: underline;
+}
