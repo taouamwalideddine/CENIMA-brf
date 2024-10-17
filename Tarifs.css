@@ -1,0 +1,108 @@
+.bckground {
+    background-image: url('Screenshot\ 2024-10-14\ 193853.png');
+    background-size: cover;
+    background-position: center; 
+    height: 100%;  
+    width: 100%; 
+}
+
+.container .services2 {
+    padding: 20px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  /* content-card */
+  .content-card{
+    background-color: #480046;
+    width: 100%;
+    color: #fff;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px ;
+  }
+  
+  /* ! title */
+  .container .services2 .title {
+    font-size: 40px;
+    text-align: left;
+    width: 70%;
+  }
+
+  /* ! title of card  */
+
+  .container .services2 {
+    padding: 20px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  /* ! title */
+  .container .services2 .title {
+    font-size: 40px;
+    text-align: center;
+    width: 70%;
+    color: #fff;
+  }
+  
+  /* ! title of card  */
+  .container .services2 .services-cards {
+    display: flex;
+    gap: 20px;
+    padding: 30px;
+  }
+  
+  .container .services2 .services-cards .card {
+    background: #fff;
+    height: 450px;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .container .services2 .services-cards .card .service-title {
+    background: #480046;
+    height: 100px;
+    color: white;
+    text-align: center; 
+    padding: 10px;
+  }
+  
+  .container .services2 .services-cards .card .service-benifits {
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    gap: 40px;
+  }
+  
+  .container .services2 .services   -cards .card .service-benifits .pack-infos {
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+  }
+  
+  .container.services2 .services-cards.card .service-benifits .pack-infos .resolution-infos {
+    display: flex;
+    padding-right: 50px;
+    justify-content: space-between;
+  }
+  
+  .container .services2 .services-cards .card .btn-buy {
+    background: #480046;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+  }
+  

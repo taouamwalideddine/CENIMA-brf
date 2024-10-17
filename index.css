@@ -308,13 +308,7 @@
     flex-direction: column;
   }
   
-  .container
-    .services
-    .services-cards
-    .card
-    .service-benifits
-    .pack-infos
-    .resolution-infos {
+  .container.services .services-cards.card .service-benifits .pack-infos .resolution-infos {
     display: flex;
     padding-right: 50px;
     justify-content: space-between;
