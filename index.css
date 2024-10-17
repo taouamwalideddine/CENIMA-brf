@@ -189,7 +189,7 @@
   }
   
   .container .top-movies .movies-container .movie-card img:hover {
-    transform: scale(1.01);
+    transform: scale(1.09);
   }
   
   .container .top-movies .movies-container .movie-card .movie-title {
