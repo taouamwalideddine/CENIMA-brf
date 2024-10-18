@@ -1,7 +1,7 @@
 /* Contact Section Styles */
 .contact_section {
     padding: 40px;
-    background-color: #d3cfca; /* Light grey background */
+    background-color: #eeeeee; /* Light grey background */
 }
 
 .contact_section h2 {
@@ -32,7 +32,7 @@
     margin-bottom: 20px; /* Space between inputs */
     padding-left: 15px; /* Padding inside inputs */
     background-color: #ffffff; /* White background */
-    box-shadow: 0 0 7px rgba(0, 0, 0, 0.2); /* Light shadow */
+    box-shadow: 0 0 7px rgba(48, 2, 62, 0.2); /* Light shadow */
     color: #000; /* Black text */
 }
 
@@ -42,19 +42,18 @@
 }
 
 .contact_form button {
+    background-color: rgb(68, 3, 64);
+    color: #f098e7;
     border: none;
     font-family: 'Merriweather Sans', sans-serif;
     text-transform: uppercase;
     padding: 10px 55px;
-    background-color: #1a2029;
-    border: 1px solid #0355cc;
-    color: #ffffff;
     cursor: pointer;
 }
 
 .contact_form button:hover {
     background-color: transparent;
-    color: #0355cc;
+    color: #ca3dab;
 }
 
 .map_container {
