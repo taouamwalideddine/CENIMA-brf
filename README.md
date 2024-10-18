@@ -1,0 +1,1 @@
+this project serves to develope my ability in undrestanding and utiliwe html and css by giving me a challege that is making a website that u can watch/buy movie tickets, i got familiar with divs classes and more of flex
